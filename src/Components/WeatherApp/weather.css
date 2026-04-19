@@ -1,0 +1,17 @@
+.weather-container{
+    background-color: bisque;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-data{
+    margin-top: 20px;
+}
+
+h3{
+    color: black;
+}
