@@ -7,10 +7,10 @@ const ToDoList = () => {
 
   function addNote(){
     if(todo !== ''){
-      setDataList([...dataList, todo]); // This add the data asynchronously
+      setDataList([...dataList, todo]); // This add the data synchronously
     }
 
-    // setDataList((dataList) => { // this adds data synchronously
+    // setDataList((dataList) => { // this adds data asynchronously
     //   const updatedList = [...dataList, todo];
     //   console.log(updatedList);
     //   return updatedList;

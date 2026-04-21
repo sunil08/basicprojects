@@ -1,0 +1,104 @@
+.header-layout{
+    background-color: brown;
+    align-items: center;
+    padding: 15px 0 15px;
+}
+
+/* Container */
+.contact_form_div {
+  max-width: 400px;
+  margin: 60px 30px;
+  /* margin: 60px auto; centers the item */
+  padding: 25px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.contact_heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form layout */
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.contact_label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Inputs */
+.contact_input {
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  
+}
+
+/* Focus effect */
+.contact_input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+/* Button */
+.contact_submit_btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.contact_submit_btn:hover {
+  background: #357abd;
+}
+
+/* Active click */
+.contact_submit_btn:active {
+  transform: scale(0.98);
+}
+
+.contact_row {
+  display: flex;               /* Arrange children in a row */
+  align-items: center;         /* Vertically center items */
+  justify-content: space-between; /* Space out items across the row */
+  gap: 1rem;                    /* Space between elements */
+  padding: 8px 12px;            /* Optional padding */
+  border-bottom: 1px solid #ccc; /* Optional styling */
+}
+
+.contact_row h3{
+    color: white;
+    display:flex; 
+    align-items: start;
+    padding-left: 30px;
+}
+
+.del_image{
+    color: white;
+    display:flex; 
+    align-items: center;
+    justify-content: end;
+}

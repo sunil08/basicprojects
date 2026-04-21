@@ -25,6 +25,7 @@ import Quiz from './Components/QuizApp/Quiz'
 import AuthForm from './Components/LoginSignup/AuthForm'
 import TicTacToe from './Components/TicTacToe/TicTacToe'
 import Weather from './Components/WeatherApp/Weather'
+import ManageContactsPage from './Components/ContactManager/ManageContactsPage'
 
 function App() {
 
@@ -53,7 +54,8 @@ function App() {
       {/* <Quiz/> */}
       {/* <AuthForm/> */}
       {/* <TicTacToe/> */}
-      <Weather/>
+      {/* <Weather/> */}
+      <ManageContactsPage/>
     </>
   )
 }
