@@ -26,6 +26,7 @@ import AuthForm from './Components/LoginSignup/AuthForm'
 import TicTacToe from './Components/TicTacToe/TicTacToe'
 import Weather from './Components/WeatherApp/Weather'
 import ManageContactsPage from './Components/ContactManager/ManageContactsPage'
+import SideBarBasePage from './Components/SideBar/SideBarBasePage'
 
 function App() {
 
@@ -55,7 +56,8 @@ function App() {
       {/* <AuthForm/> */}
       {/* <TicTacToe/> */}
       {/* <Weather/> */}
-      <ManageContactsPage/>
+      {/* <ManageContactsPage/> */}
+      <SideBarBasePage/>
     </>
   )
 }
