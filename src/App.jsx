@@ -27,6 +27,7 @@ import TicTacToe from './Components/TicTacToe/TicTacToe'
 import Weather from './Components/WeatherApp/Weather'
 import ManageContactsPage from './Components/ContactManager/ManageContactsPage'
 import SideBarBasePage from './Components/SideBar/SideBarBasePage'
+import Navbar from './Components/NavBar/Navbar'
 
 function App() {
 
@@ -57,7 +58,8 @@ function App() {
       {/* <TicTacToe/> */}
       {/* <Weather/> */}
       {/* <ManageContactsPage/> */}
-      <SideBarBasePage/>
+      {/* <SideBarBasePage/> */}
+      <Navbar/>
     </>
   )
 }
