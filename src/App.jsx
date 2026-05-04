@@ -28,6 +28,7 @@ import Weather from './Components/WeatherApp/Weather'
 import ManageContactsPage from './Components/ContactManager/ManageContactsPage'
 import SideBarBasePage from './Components/SideBar/SideBarBasePage'
 import Navbar from './Components/NavBar/Navbar'
+import TaskManagerRTK from './Components/ReduxToolkitTODO/TaskManagerRTK'
 
 function App() {
 
@@ -59,7 +60,8 @@ function App() {
       {/* <Weather/> */}
       {/* <ManageContactsPage/> */}
       {/* <SideBarBasePage/> */}
-      <Navbar/>
+      {/* <Navbar/> */}
+      <TaskManagerRTK/>
     </>
   )
 }
