@@ -29,9 +29,9 @@ import ManageContactsPage from './Components/ContactManager/ManageContactsPage'
 import SideBarBasePage from './Components/SideBar/SideBarBasePage'
 import Navbar from './Components/NavBar/Navbar'
 import TaskManagerRTK from './Components/ReduxToolkitTODO/TaskManagerRTK'
+import ShoppingBase from './Components/ReduxToolkitCART/ShoppingBase'
 
 function App() {
-
   return (
     <>
       {/* <ChildrenProps/> */}
@@ -61,7 +61,8 @@ function App() {
       {/* <ManageContactsPage/> */}
       {/* <SideBarBasePage/> */}
       {/* <Navbar/> */}
-      <TaskManagerRTK/>
+      {/* <TaskManagerRTK/> */}
+      <ShoppingBase/>
     </>
   )
 }

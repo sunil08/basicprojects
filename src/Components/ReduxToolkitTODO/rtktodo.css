@@ -49,12 +49,18 @@
 }
 
 .container{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-y: auto; /* enable scrolling */
+  min-height: 100vh; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* horizontal center */
+  justify-content: flex-start; /* start from top */
   min-height: 100vh;
+  padding-top: 20px;
 }
 
 .filter{

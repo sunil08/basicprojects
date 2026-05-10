@@ -8,7 +8,7 @@ const TaskItem = ({task}) => {
 
   return (
     <li className={`items ${task.completed ? 'completed' : ''}`}>
-      {task.completed ? task.text : "abcd"}
+      {task.text}
       <div>
         <button onClick={() => dispatch(toggleTask(task.id))} className='button'>{task.completed ? "Undo" : "Done"}</button>
         <button onClick={() => dispatch(deleteTask(task.id))} className='button delete'>Delete</button>
